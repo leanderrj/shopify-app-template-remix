@@ -32,6 +32,9 @@ export default function App() {
           Home
         </Link>
         <Link to="/app/additional">Additional page</Link>
+        <Link to="/app/raffles">Raffles overview</Link>
+        <Link to="/app/raffle_post">Raffle post</Link>
+        <Link to="/app/raffle_entries">Raffle entries</Link>
       </ui-nav-menu>
       <PolarisAppProvider
         i18n={polarisTranslations}
